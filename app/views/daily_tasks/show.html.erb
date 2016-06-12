@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @daily_task.title %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @daily_task.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_daily_task_path(@daily_task) %> |
+<%= link_to 'Back', daily_tasks_path %>
