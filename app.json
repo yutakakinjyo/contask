@@ -1,6 +1,7 @@
 {
   "name": "contask",
   "scripts": {
+    "postdeploy": "rake db:migrate"
   },
   "formation": {
     "worker": {
