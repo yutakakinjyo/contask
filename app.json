@@ -5,12 +5,10 @@
   },
   "env": {
     "BASIC_AUTH_USERNAME": {
-      "description": "username",
-      "value": "username"
+      "description": "username"
     },
     "BASIC_AUTH_PASSWORD": {
-      "description": "password",
-      "value": "password"
+      "description": "password"
     }
   },
   "formation": {
