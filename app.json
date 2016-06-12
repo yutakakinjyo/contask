@@ -3,6 +3,14 @@
   "scripts": {
     "postdeploy": "rake db:migrate"
   },
+  "env": {
+    "BASIC_AUTH_USERNAME": {
+      "description": "username"
+    },
+    "BASIC_AUTH_PASSWORD": {
+      "description": "password"
+    }
+  },
   "formation": {
     "worker": {
       "quantity": 1
